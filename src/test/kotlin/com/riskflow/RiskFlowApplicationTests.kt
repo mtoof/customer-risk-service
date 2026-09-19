@@ -1,4 +1,4 @@
-package com.customer.RiskFlow
+package com.riskflow
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

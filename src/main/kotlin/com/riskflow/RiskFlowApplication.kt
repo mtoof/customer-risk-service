@@ -1,4 +1,4 @@
-package com.customer.RiskFlow
+package com.riskflow
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
