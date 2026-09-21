@@ -149,24 +149,6 @@ V1__create_customers_table.sql
 
 Flyway owns schema evolution. Hibernate maps application entities to the existing schema and validates that the mappings are compatible.
 
-## Validation and Data Integrity
-
-Validation is applied at both the API and database boundaries.
-
-The API validates input such as:
-
-- required names
-- maximum field lengths
-- email format
-
-PostgreSQL enforces persistent data integrity through constraints such as:
-
-- `PRIMARY KEY`
-- `NOT NULL`
-- `UNIQUE`
-
-This avoids relying on only one layer for correctness.
-
 ## Testing
 
 Run the test suite with:
