@@ -1,0 +1,5 @@
+[versions]
+mockk = "1.14.11"
+
+[libraries]
+mockk = { module = "io.mockk:mockk-jvm", version.ref = "mockk" }
